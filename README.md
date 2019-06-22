@@ -1,0 +1,2 @@
+# unity_command_build
+Unityをコマンドラインからビルドする
