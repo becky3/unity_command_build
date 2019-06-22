@@ -4,7 +4,9 @@ Unityをコマンドラインからビルドする
 ターミナルでプロジェクトフォルダに移動し、
 以下コマンドを実行することで、ビルドができます。
 
-`sh unityBuild.sh` 
+```Shell
+sh unityBuild.sh
+```
 
 # 関連記事
 - Unity (2018.3)でAndroidのapkをコマンドラインビルドする for mac
