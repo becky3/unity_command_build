@@ -5,7 +5,7 @@ Unityをコマンドラインからビルドする
 
 ### 追加で必要な手順
 
-- `xcodeBuild.sh`の以下部分にUUIDを設定<br>PROVISIONING_PROFILE="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+- `xcodeBuild.sh`の以下部分にUUIDを設定<br>`PROVISIONING_PROFILE="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"`
 - `ExportOptions.plist` をプロジェクトフォルダ直下に配置
 - プロビジョニングプロファイルに合わせ、Unityのbuild identifierを設定
 
