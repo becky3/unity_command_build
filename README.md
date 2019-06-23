@@ -1,13 +1,27 @@
 # unity_command_build
 Unityをコマンドラインからビルドする
 
-ターミナルでプロジェクトフォルダに移動し、
-以下コマンドを実行することで、ビルドができます。
+## iOSビルド
 
+### 追加で必要な手順
+
+- `xcodeBuild.sh`の以下部分にUUIDを設定<br>PROVISIONING_PROFILE="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+- `ExportOptions.plist` をプロジェクトフォルダ直下に配置
+- プロビジョニングプロファイルに合わせ、Unityのbuild identifierを設定
+
+### コマンド 
 ```Shell
-sh unityBuild.sh
+sh unityiOSBuild.sh
+```
+### 関連記事
+- UnityのiOSビルドをコマンドラインから行う (Mac用)<br>https://qiita.com/beckyJPN/items/ae73dd664b17f56be5ef
+
+## Androidビルド
+
+### コマンド 
+```Shell
+sh unityAndroidBuild.sh
 ```
 
-# 関連記事
-- Unity (2018.3)でAndroidのapkをコマンドラインビルドする for mac
-https://qiita.com/beckyJPN/items/e61834c4b92112bc872d
+### 関連記事
+- UnityのAndroidビルドをコマンドラインから行う (Mac用)<br>https://qiita.com/beckyJPN/items/e61834c4b92112bc872d
