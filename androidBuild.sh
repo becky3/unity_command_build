@@ -2,7 +2,7 @@
 
 UNITY_APP_PATH=/Applications/Unity/Unity.app/Contents/MacOS/Unity
 UNITY_PROJECT_PATH=./
-UNITY_BUILDE_NAME=Builder.Build
+UNITY_BUILDE_NAME=Builder.AndroidBuild
 UNITY_LOG_PATH=./build/android/build.log
 
 $UNITY_APP_PATH -batchmode \
