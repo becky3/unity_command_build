@@ -18,7 +18,7 @@ xcodebuild -project $PROJECT_PATH \
     archive -archivePath $ARCHIVE_PATH \
     PROVISIONING_PROFILE=$PROVISIONING_PROFILE
 
-# ipaファイrの作成
+# ipaファイルの作成
 xcodebuild -exportArchive -archivePath $ARCHIVE_PATH \
  -exportPath $IPA_PATH \
  -exportOptionsPlist $EXPORT_OPTIONS_PLIST \
